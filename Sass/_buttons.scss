@@ -1,0 +1,28 @@
+button {
+    width: 5.8rem;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+
+.pink-on-hover-button {
+    color: $CTA-text;
+    &:hover {
+        color: white;
+        background: $CTA-hover-background;
+        cursor: pointer;
+    }
+}
+
+.white-on-hover-button {
+    color: white;
+    background: none;
+    border: 1px solid white;
+    &:hover {
+        color: $CTA-text;
+        background: white;
+        cursor: pointer;
+        border: none;
+    }
+}
+

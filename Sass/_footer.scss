@@ -1,0 +1,20 @@
+footer {
+    margin-top: 120px;
+    padding: 60px 150px 60px 0;
+    height: 50vh;
+    background-color: $footer-background;
+    display: flex;
+    justify-content: space-around;
+    border-top-right-radius: 100px;
+    .footer-sub-headings {
+        color: white;
+    }
+    .links {
+        margin-top: 30px;
+        line-height: 1.8rem;
+        a {
+            text-decoration: none;
+            color: $footer-text;
+        }
+    }
+}
