@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    position: relative;
+}
+
 .mobile {
     display: none;
     @media screen and (max-width: 820px) {

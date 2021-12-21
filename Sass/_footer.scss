@@ -6,6 +6,14 @@ footer {
     display: flex;
     justify-content: space-around;
     border-top-right-radius: 100px;
+    @media screen and (max-width: 700px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: 100vh;
+        text-align: center;
+    }
     .footer-sub-headings {
         color: white;
     }

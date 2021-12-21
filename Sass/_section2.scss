@@ -4,8 +4,10 @@
     background-position-y: -500px, 100%;
     background-position-x: -250px, 100%;
     margin-top: 300px;
+    margin-bottom: 150px;
     display: flex;
     height: 58vh;
+    width: 100%;
     align-items: center;
     justify-content: space-around;
     border-bottom-left-radius: 100px;
@@ -26,6 +28,12 @@
             width: 40rem;
             text-align: center;
         }
+        @media screen and (max-width: 460px) {
+            width:30rem;
+        }
+        @media screen and (max-width: 400px) {
+            width: 20rem;
+        }
         h2 {
             font-size: 2rem;
             margin-bottom: 20px;
@@ -38,5 +46,14 @@
         @media screen and (max-width: 850px) {
            
         }
+    }
+}
+.phones {
+    @media screen and (max-width: 700px) {
+        width: 500px;
+        margin-top: -150px;
+    }
+    @media screen and (max-width: 400px) {
+        width: 400px;
     }
 }

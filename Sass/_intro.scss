@@ -26,6 +26,7 @@ main {
 }
 
 .main-top-container {
+    width: 100%;
     @include space-between();
     @include layout();
     @media screen and (max-width: 1050px) {
@@ -34,10 +35,13 @@ main {
     }
     @media screen and (max-width: 950px) {
         margin: 0 34.5px;
-        padding: 60px 5px;
+        padding: 60px 10px;
     }
     @media screen and (max-width: 700px) {
         align-items: center;
+    }
+    @media screen and (max-width: 400px) {
+        margin: 0 15px;
     }
 }
 .logo-link-container {
@@ -46,7 +50,7 @@ main {
 }
 
 .button-container-main {
-    width: 10rem;
+    width: 25%;
     .login-span {
         padding-right: 20px;
     }
@@ -68,6 +72,15 @@ main {
         margin-bottom: 10px;
         @media screen and (max-width: 740px) {
             font-size: 3rem;
+        }
+        @media screen and (max-width: 600px) {
+            font-size: 2.7rem;
+        }
+        @media screen and (max-width: 460px) {
+            font-size: 2.5rem;
+        }
+        @media screen and (max-width: 400px) {
+            font-size: 2.3rem;
         }
     }
     p {
