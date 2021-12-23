@@ -1,49 +1,10 @@
-<<<<<<< HEAD
-*,*::after,*::before {
+*,
+*::after,
+*::before {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
-}
-
-.mobile {
-    display: none;
-    @media screen and (max-width: 820px) {
-        display: block;
-        position: static;
-    }
-}
-.hamburger-menu {
-    display: none;
-    @media screen and (max-width: 700px) {
-        display: block;
-    }
-}
-.desktop-only {
-    @media screen and (max-width: 700px) {
-        display: none;
-    }
-}
-
-@import 'intro';
-@import 'variables';
-@import 'links';
-@import 'buttons';
-@import 'section1';
-@import 'section2';
-@import 'section3';
-@import 'footer';
-@import 'mediaQueries';
-
-.desktop {
-    @media screen and (max-width: 820px) {
-        display: none;
-    }
-}
-=======
-*,*::after,*::before {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+    transition: .5s ease-in-out;
 }
 
 body {
@@ -57,31 +18,26 @@ body {
         position: static;
     }
 }
-.hamburger-menu {
-    display: none;
-    @media screen and (max-width: 700px) {
-        display: block;
-    }
-}
 .desktop-only {
     @media screen and (max-width: 700px) {
         display: none;
     }
 }
 
-@import 'intro';
-@import 'variables';
-@import 'links';
-@import 'buttons';
-@import 'section1';
-@import 'section2';
-@import 'section3';
-@import 'footer';
-@import 'mediaQueries';
+@import "intro";
+@import "variables";
+@import "links";
+@import "buttons";
+@import "section1";
+@import "section2";
+@import "section3";
+@import "footer";
+@import "mobile-menu";
+@import "hamburger-menu";
+@import "toggle-classes";
 
 .desktop {
     @media screen and (max-width: 820px) {
         display: none;
     }
 }
->>>>>>> 0ae2b0c (I added responsiveness)

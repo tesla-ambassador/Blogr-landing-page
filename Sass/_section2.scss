@@ -1,47 +1,3 @@
-<<<<<<< HEAD
-.second-showcase {
-    background: url("../images/bg-pattern-circles.svg"), linear-gradient(135deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-    background-repeat: no-repeat;
-    background-position-y: -500px, 100%;
-    background-position-x: -250px, 100%;
-    margin-top: 300px;
-    display: flex;
-    height: 58vh;
-    align-items: center;
-    justify-content: space-around;
-    border-bottom-left-radius: 100px;
-    border-top-right-radius: 100px;
-    @media screen and (max-width: 850px) {
-        height: 120vh;
-        width: 100%;
-        flex-direction: column;
-        background-position-y: bottom;
-        background-position-x: center;
-        padding-bottom: 250px;
-    }
-    &-text-container {
-        width: 35rem;
-        color: white;
-        padding: 0 60px;
-        @media screen and (max-width: 850px) {
-            width: 40rem;
-            text-align: center;
-        }
-        h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-            @media screen and (max-width: 850px) {
-            }
-        }
-    }
-    &-image-container {
-        margin-left: 150px;
-        @media screen and (max-width: 850px) {
-           
-        }
-    }
-}
-=======
 .second-showcase {
     background: url("../images/bg-pattern-circles.svg"), linear-gradient(135deg, hsl(237, 17%, 21%), hsl(237, 23%, 32%));
     background-repeat: no-repeat;
@@ -101,4 +57,3 @@
         width: 400px;
     }
 }
->>>>>>> 0ae2b0c (I added responsiveness)

@@ -1,0 +1,37 @@
+.mobile-menu {
+    background: white;
+    color: $headings;
+    padding: 20px;
+    width: 90%;
+    height: 80vh;
+    margin: -20px 20px 0 20px;
+    position: absolute;
+    box-shadow: 0px 0px 5px 5px hsla(0, 0, 0, .2);
+    border-radius: 5px;
+    text-align: center;
+    display: none;
+    @media screen and (min-width: 701px) {
+        display: none;
+    }
+    line-height: 2.5rem;
+    .mobile-sub-menu {
+        margin-top: 30px;
+        background-color: hsla(0, 0, 0, .1);
+        width: 100%;
+        text-align: center;
+        border-radius: 5px;
+        padding: 30px 10px;
+        display: none;
+    }
+    &-button-container {
+        border-top: 1px solid hsla(0, 0, 0, .2);
+        width: 100%;
+        margin-top: 40px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+

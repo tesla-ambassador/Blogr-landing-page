@@ -26,3 +26,11 @@ button {
     }
 }
 
+.gradient {
+    background: linear-gradient(135deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    color: white;
+    width: 6rem;
+    padding: 7px 5px;
+    border-radius: 15px;
+}
+

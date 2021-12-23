@@ -15,19 +15,16 @@ li {
     }
 }
 .sub-list {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-right: -60px;
     width: 10rem;
+    position: absolute;
     border-radius: 5px;
     box-shadow: 0px 0px 5px 5px hsla(0, 0, 0, .2);
     background: white;
-    display: inline-block;
+    color: $body-copy;
+    display: none;
     text-align: start;
     padding: 20px; 
     line-height: 30px;
-}
-.hidden {
-    display: none;
-}
-.show {
-    display: inline-block;
 }
